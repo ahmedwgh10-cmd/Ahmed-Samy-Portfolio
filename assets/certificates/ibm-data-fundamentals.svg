@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ibmGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f62fe" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#111827" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="blueAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f62fe"/>
+      <stop offset="100%" stop-color="#0043ce"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" rx="16" fill="#172033" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+  <rect width="400" height="250" rx="16" fill="url(#ibmGrad)"/>
+  <rect x="0" y="0" width="400" height="6" fill="url(#blueAccent)" rx="3"/>
+  <g transform="translate(35, 38)">
+    <rect width="48" height="48" rx="12" fill="#0f62fe" fill-opacity="0.15" stroke="#0f62fe" stroke-width="1.5"/>
+    <path d="M16 24h16M24 16v16" stroke="#3b82f6" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="24" cy="24" r="14" stroke="#60a5fa" stroke-width="1.5" fill="none" stroke-dasharray="4 2"/>
+  </g>
+  <text x="98" y="58" fill="#94a3b8" font-family="'Inter', system-ui, sans-serif" font-size="11" font-weight="600" letter-spacing="1.5">IBM SKILLSBUILD</text>
+  <text x="98" y="78" fill="#f8fafc" font-family="'Inter', system-ui, sans-serif" font-size="16" font-weight="700">Data Fundamentals</text>
+  <text x="35" y="128" fill="#94a3b8" font-family="'Inter', system-ui, sans-serif" font-size="12" font-weight="400">Foundational Knowledge in Data Analysis and Data Cleaning</text>
+  <g transform="translate(35, 145)">
+    <rect width="95" height="26" rx="6" fill="rgba(15,98,254,0.15)" stroke="rgba(15,98,254,0.3)" stroke-width="1"/>
+    <text x="47.5" y="17" fill="#60a5fa" font-family="'Inter', system-ui, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Data Cleaning</text>
+  </g>
+  <g transform="translate(140, 145)">
+    <rect width="95" height="26" rx="6" fill="rgba(15,98,254,0.15)" stroke="rgba(15,98,254,0.3)" stroke-width="1"/>
+    <text x="47.5" y="17" fill="#60a5fa" font-family="'Inter', system-ui, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Data Analysis</text>
+  </g>
+  <g transform="translate(245, 145)">
+    <rect width="115" height="26" rx="6" fill="rgba(15,98,254,0.15)" stroke="rgba(15,98,254,0.3)" stroke-width="1"/>
+    <text x="57.5" y="17" fill="#60a5fa" font-family="'Inter', system-ui, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Analytics Process</text>
+  </g>
+  <line x1="35" y1="195" x2="365" y2="195" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="44" cy="220" r="4" fill="#10b981"/>
+  <text x="56" y="224" fill="#10b981" font-family="'Inter', system-ui, sans-serif" font-size="11" font-weight="600">Completed Training</text>
+  <text x="365" y="224" fill="#64748b" font-family="'Inter', system-ui, sans-serif" font-size="11" text-anchor="end">Year 2026</text>
+</svg>
